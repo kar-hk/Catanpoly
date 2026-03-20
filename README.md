@@ -1,7 +1,7 @@
-# 🏝️ Catan Online (kar-hk Edition)
+# 🏝️ Catanpoly
 
 A real-time multiplayer implementation of the classic **Settlers of Catan** board game, built with **React** and **Socket.io**.  
-Customized, maintained, and deployed by **kar-hk**.
+Customized, maintained, and deployed by **Hanishkar & Teaam **.
 
 ![Catan](https://img.shields.io/badge/Players-2--6-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
