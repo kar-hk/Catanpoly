@@ -40,8 +40,8 @@ Customized, maintained, and deployed by **Hanishkar & Teaam **.
 ### Run Locally
 
 ```bash
-git clone https://github.com/kar-hk/ca-tan.git
-cd ca-tan
+git clone https://github.com/kar-hk/catanpoly.git
+cd catanpoly
 
 cd server
 npm install
