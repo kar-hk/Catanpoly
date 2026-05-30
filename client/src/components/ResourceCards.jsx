@@ -2,7 +2,7 @@ import './ResourceCards.css';
 
 const RESOURCES = [
   { key: 'brick', name: 'Brick', icon: '🧱', color: '#c45a2c' },
-  { key: 'lumber', name: 'Lumber', icon: '🪵', color: '#2d5a27' },
+  { key: 'lumber', name: 'Lumber', icon: '🌳', color: '#2d5a27' },
   { key: 'wool', name: 'Wool', icon: '🐑', color: '#90c26a' },
   { key: 'grain', name: 'Grain', icon: '🌾', color: '#d4a942' },
   { key: 'ore', name: 'Ore', icon: '⛏️', color: '#6b6b6b' }
