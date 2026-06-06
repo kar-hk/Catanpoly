@@ -160,7 +160,7 @@ function Lobby({ onCreateGame, onJoinGame, error, setError }) {
 
         <div className="lobby-footer">
           <p>2-6 Players • First to 10 Victory Points Wins</p>
-          <p className="credits">Created by <span className="creator-name">© 2025 kar-hk</span></p>
+          <p className="credits">© 2026 | 👑 Developed with ❤️ by  <span className="creator-name">Hanishkar & Friends </span></p>
         </div>
       </div>
       
