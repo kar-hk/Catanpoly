@@ -44,7 +44,7 @@ function getNumberColor(num) {
 // Get terrain resource icon
 function getTerrainIcon(terrain) {
   const icons = {
-    'forest': '🌲',
+    'forest': '🌳',
     'hills': '🧱',
     'pasture': '🐑',
     'fields': '🌾',
