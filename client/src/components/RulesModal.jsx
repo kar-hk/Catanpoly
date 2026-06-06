@@ -62,12 +62,12 @@ function RulesModal({ onClose }) {
       title: '🏠 Building Costs',
       content: `
 **Road** (worth 0 VP)
-🧱 1 Brick + 🪵 1 Lumber
+🧱 1 Brick + 🌳 1 Lumber
 • Must connect to your roads, settlements, or cities
 • Max 15 roads per player
 
 **Settlement** (worth 1 VP)
-🧱 1 Brick + 🪵 1 Lumber + 🐑 1 Wool + 🌾 1 Grain
+🧱 1 Brick + 🌳 1 Lumber + 🐑 1 Wool + 🌾 1 Grain
 • Must be built on empty intersections
 • Must connect to one of your roads
 • Cannot be adjacent to another settlement/city
@@ -137,7 +137,7 @@ function RulesModal({ onClose }) {
 
 **Port Types:**
 • 🧱 Brick Port (2:1)
-• 🪵 Lumber Port (2:1)
+• 🌳 Lumber Port (2:1)
 • 🐑 Wool Port (2:1)
 • 🌾 Grain Port (2:1)
 • 🪨 Ore Port (2:1)

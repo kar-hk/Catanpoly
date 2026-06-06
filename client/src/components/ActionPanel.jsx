@@ -103,7 +103,7 @@ function ActionPanel({
         >
           <span className="btn-icon">━</span>
           <span className="btn-label">Road</span>
-          <span className="cost">🧱1 🪵1</span>
+          <span className="cost">🧱1 🌳1</span>
         </button>
 
         <button
@@ -113,7 +113,7 @@ function ActionPanel({
         >
           <span className="btn-icon">🏠</span>
           <span className="btn-label">Settlement</span>
-          <span className="cost">🧱1 🪵1 🐑1 🌾1</span>
+          <span className="cost">🧱1 🌳1 🐑1 🌾1</span>
         </button>
 
         <button

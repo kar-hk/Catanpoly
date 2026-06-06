@@ -113,7 +113,7 @@ const NUMBER_TOKENS_EXTENDED = [
 export const PORT_TYPES = {
   GENERIC: { ratio: 3, resource: null, name: '3:1 Port', icon: '⚓' },
   BRICK: { ratio: 2, resource: 'brick', name: 'Brick Port', icon: '🧱' },
-  LUMBER: { ratio: 2, resource: 'lumber', name: 'Lumber Port', icon: '🪵' },
+  LUMBER: { ratio: 2, resource: 'lumber', name: 'Lumber Port', icon: '🌳' },
   WOOL: { ratio: 2, resource: 'wool', name: 'Wool Port', icon: '🐑' },
   GRAIN: { ratio: 2, resource: 'grain', name: 'Grain Port', icon: '🌾' },
   ORE: { ratio: 2, resource: 'ore', name: 'Ore Port', icon: '⛏️' }

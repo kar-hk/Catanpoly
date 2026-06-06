@@ -4,7 +4,7 @@ import './TradeModal.css';
 const RESOURCES = ['brick', 'lumber', 'wool', 'grain', 'ore'];
 const RESOURCE_ICONS = {
   brick: '🧱',
-  lumber: '🪵',
+  lumber: '🌳',
   wool: '🐑',
   grain: '🌾',
   ore: '⛏️'

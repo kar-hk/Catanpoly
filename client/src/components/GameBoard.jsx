@@ -69,7 +69,7 @@ function GameBoard({ socket, gameState, playerId, gameCode, chatMessages, onLeav
   // Listen for personal resource received events (shows center popup for your own gains)
   useEffect(() => {
     const handleResourcesReceived = ({ gains, fromRoll }) => {
-      const resourceNames = { brick: '🧱', lumber: '🪵', wool: '🐑', grain: '🌾', ore: '⛏️' };
+      const resourceNames = { brick: '🧱', lumber: '🌳', wool: '🐑', grain: '🌾', ore: '⛏️' };
       const gainsList = Object.entries(gains)
         .filter(([_, amount]) => amount > 0)
         .map(([resource, amount]) => `${resourceNames[resource]} ${amount}`)
@@ -89,7 +89,7 @@ function GameBoard({ socket, gameState, playerId, gameCode, chatMessages, onLeav
   // Listen for all resource distributions (public info - everyone sees who got what)
   useEffect(() => {
     const handleResourcesDistributed = ({ fromRoll, allGains }) => {
-      const resourceNames = { brick: '🧱', lumber: '🪵', wool: '🐑', grain: '🌾', ore: '⛏️' };
+      const resourceNames = { brick: '🧱', lumber: '🌳', wool: '🐑', grain: '🌾', ore: '⛏️' };
       
       allGains.forEach(({ playerName, playerId: gainPlayerId, gains }) => {
         const gainsList = Object.entries(gains)
@@ -113,7 +113,7 @@ function GameBoard({ socket, gameState, playerId, gameCode, chatMessages, onLeav
 
   // Listen for steal notifications
   useEffect(() => {
-    const resourceIcons = { brick: '🧱', lumber: '🪵', wool: '🐑', grain: '🌾', ore: '⛏️' };
+    const resourceIcons = { brick: '🧱', lumber: '🌳', wool: '🐑', grain: '🌾', ore: '⛏️' };
     
     const handleStealResult = ({ type, resource, otherPlayer }) => {
       const icon = resourceIcons[resource] || resource;

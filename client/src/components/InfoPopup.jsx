@@ -8,7 +8,7 @@ const INFO_DATA = {
     icon: '🏠',
     title: 'Settlements',
     description: 'Small buildings worth 1 Victory Point each. Produce 1 resource when adjacent hex number is rolled.',
-    cost: '🧱1 🪵1 🐑1 🌾1'
+    cost: '🧱1 🌳1 🐑1 🌾1'
   },
   cities: {
     icon: '🏰',
@@ -20,7 +20,7 @@ const INFO_DATA = {
     icon: '━',
     title: 'Roads',
     description: 'Connect your settlements and cities. Longest continuous road (5+) earns 2 VP bonus.',
-    cost: '🧱1 🪵1'
+    cost: '🧱1 🌳1'
   },
   devCards: {
     icon: '📜',
@@ -57,7 +57,7 @@ const INFO_DATA = {
     terrain: 'Hills'
   },
   lumber: {
-    icon: '🪵',
+    icon: '🌳',
     title: 'Lumber',
     description: 'Produced by Forests (dark green hexes). Used for roads and settlements.',
     terrain: 'Forest'
@@ -89,7 +89,7 @@ const INFO_DATA = {
     resource: 'Brick'
   },
   forest: {
-    icon: '🪵',
+    icon: '🌳',
     title: 'Forest',
     description: 'Produces Lumber when the number token is rolled.',
     resource: 'Lumber'
@@ -131,7 +131,7 @@ const INFO_DATA = {
     description: 'Trade 2 Brick for 1 of any other resource.',
   },
   portLumber: {
-    icon: '🪵',
+    icon: '🌳',
     title: '2:1 Lumber Port',
     description: 'Trade 2 Lumber for 1 of any other resource.',
   },
@@ -275,7 +275,7 @@ export function useInfoPopup() {
     
     const terrainInfo = INFO_DATA[hex.terrain] || {};
     const resourceIcon = {
-      brick: '🧱', lumber: '🪵', wool: '🐑', grain: '🌾', ore: '⛏️'
+      brick: '🧱', lumber: '🌳', wool: '🐑', grain: '🌾', ore: '⛏️'
     }[hex.resource] || '❌';
     
     const info = {
